@@ -9,9 +9,12 @@ header, nav, ul {
 }
 
 header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
     display: flex;
     background-color: #333;
-    height: 50px;
+    height: 60px;
     align-items: center;
 }
 
@@ -19,15 +22,20 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
-ul {
+nav ul {
     list-style-type: none;
+    height: 60px;
     display: flex;
 }
 
-li {
-    padding: 15%;
+nav li {
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #333;
+    transition: background-color 0.6s;
 }
 
 a {
@@ -35,8 +43,9 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+nav li:hover {
+    background-color: #222;
+    cursor: pointer;
 }
 
 #name {
@@ -72,4 +81,17 @@ a:hover {
 
 .text-overlay p {
     font-size: 30px;
+}
+
+#about {
+    padding: 5%;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+#about p {
+    font-size: 20px;
 }
