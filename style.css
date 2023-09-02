@@ -93,12 +93,22 @@ nav li:hover {
 }
 
 #about p {
-    font-size: 28px;
+    font-size: 24px;
 }
 
 #about-content {
     display: flex;
     flex-direction: row;
+}
+
+#resume {
+    padding: 5%;
+    background-color: #efefef;
+}
+
+#resume h2 {
+    font-size: 40px;
+    margin-top: 0px;
 }
 
 #crop {
