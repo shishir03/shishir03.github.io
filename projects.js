@@ -1,4 +1,3 @@
-// This is only temporary I promise
 window.addEventListener("load", function() {
     const home = document.getElementById("home-but");
     const about = document.getElementById("about-but");
@@ -7,22 +6,22 @@ window.addEventListener("load", function() {
     const socials = document.getElementById("socials-but");
     
     home.addEventListener('click', function() {
-        window.location.href = "#";
+        window.location.href = "index.html";
     });
     
     about.addEventListener('click', function() {
-        window.location.href = "#about";
+        window.location.href = "inndex.html#about";
     });
     
     resume.addEventListener('click', function() {
-        window.location.href = "#resume";
+        window.location.href = "index.html#resume";
     });
 
     projects.addEventListener('click', function() {
-        window.location.href = "projects.html";
+        window.location.href = "#";
     });
     
     socials.addEventListener('click', function() {
-        window.location.href = "#socials";
+        window.location.href = "index.html#socials";
     });
 });
